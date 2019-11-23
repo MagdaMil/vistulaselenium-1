@@ -25,7 +25,7 @@ public class ArenaTest {
 
     @Test
     public void myFirstInteractionTest() {
-        String nazwa_projektu = "NewM8";
+        String nazwa_projektu = "NewM9";
         driver = new ChromeDriver();
         driver.get("http://demo.testarena.pl/zaloguj");
         WebElement email = driver.findElement(By.id("email"));
